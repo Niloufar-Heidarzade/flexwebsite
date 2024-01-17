@@ -1,0 +1,31 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+}
+header{
+  position:sticky;
+}
+header nav{
+  display:flex;
+  justify-content:space-around;
+  padding:20px;
+  background-color: rgb(10, 10, 59);
+  border-bottom:solid orange 3px;
+}
+header nav a{
+  text-decoration:none;
+  color:white;
+  font-size:24px;
+  
+}
+.paragraph{
+  margin-top:30px;
+  background-color:#fe921f;
+  border:solid 2.5px rgb(10, 10, 59);
+  width:70%;
+  margin-left:20px;
+  border-radius:10px;
+  padding:10px;
+  
+}
