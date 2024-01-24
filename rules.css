@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+}
+body{
+  background-color: white;
+}
+header{
+  position:sticky;
+  top:0;
+}
+header nav{
+  display:flex;
+  justify-content:space-around;
+  padding:20px;
+  background-color:#393943;
+  border-bottom:solid 4px #F3B552;
+}
+header nav a{
+  text-decoration:none;
+  color: white;
+  font-size:24px;
+  
+}
+.cards-container{
+  display:flex;
+  justify-content: space-around;
+  margin-top:50px;
+  flex-wrap:wrap;
+  row-gap:50px;
+  column-gap:70px;
+}
+.card{
+  width:150px;
+  height:230px;
+  background-color: #F3B552;
+  border-radius:15px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  align-items: center;
+  
+ 
+}
+
+img{
+  width:90px;
+  height:80px;
+  align-self:center;
+  margin-bottom:-30px;
+}
+.card p{
+  font-family: 'Quicksand', sans-serif;
+  font-weight:bolder;
+  color:#393943;
+  
+}
+.para{
+  font-family: 'Quicksand', sans-serif;
+  display:flex;
+  justify-content:center;
+  margin:50px auto;
+  border-top:solid #387FC8 2px;
+  border-left:solid #387FC8 2px;
+  border-top-left-radius:15px;
+  width:80%;
+  padding:40px 30px;
+}
